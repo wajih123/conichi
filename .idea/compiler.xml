@@ -6,34 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="demo" />
         <module name="mconfig-server" />
-        <module name="eureka-server" />
         <module name="mclientui" />
-        <module name="mzuulserver" />
+        <module name="mzuul-server" />
         <module name="mconvertcurrency" />
-        <module name="mcurrenttime" />
         <module name="mvatcountry" />
+        <module name="meurekaServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="eureka-server" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="mclientui" target="1.8" />
       <module name="mconfig-server" target="1.8" />
       <module name="mconvertcurrency" target="1.8" />
-      <module name="mcurrenttime" target="1.8" />
+      <module name="meurekaServer" target="1.8" />
       <module name="mvatcountry" target="1.8" />
-      <module name="mzuulserver" target="1.8" />
+      <module name="mzuul-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="eureka-server" options="-parameters" />
+      <module name="demo" options="-parameters" />
       <module name="mclientui" options="-parameters" />
       <module name="mconfig-server" options="-parameters" />
       <module name="mconvertcurrency" options="-parameters" />
-      <module name="mcurrenttime" options="-parameters" />
+      <module name="meurekaServer" options="-parameters" />
       <module name="mvatcountry" options="-parameters" />
-      <module name="mzuulserver" options="-parameters" />
+      <module name="mzuul-server" options="-parameters" />
     </option>
   </component>
 </project>

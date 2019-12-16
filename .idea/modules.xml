@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/../eureka-server/eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../clientui/mclientui.iml" filepath="$PROJECT_DIR$/../clientui/mclientui.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../config-server/mconfig-server.iml" filepath="$PROJECT_DIR$/../config-server/mconfig-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../SpringBoot/convertcurrency/mconvertcurrency.iml" filepath="$PROJECT_DIR$/../SpringBoot/convertcurrency/mconvertcurrency.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../SpringBoot/cuurentTime/mcurrenttime.iml" filepath="$PROJECT_DIR$/../SpringBoot/cuurentTime/mcurrenttime.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../SpringBoot/vatcountry/mvatcountry.iml" filepath="$PROJECT_DIR$/../SpringBoot/vatcountry/mvatcountry.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../zuul-server/mzuulserver.iml" filepath="$PROJECT_DIR$/../zuul-server/mzuulserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/conichi.iml" filepath="$PROJECT_DIR$/.idea/conichi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cuurentTime/demo.iml" filepath="$PROJECT_DIR$/cuurentTime/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clientui/mclientui.iml" filepath="$PROJECT_DIR$/clientui/mclientui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/mconfig-server.iml" filepath="$PROJECT_DIR$/config-server/mconfig-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/convertcurrency/mconvertcurrency.iml" filepath="$PROJECT_DIR$/convertcurrency/mconvertcurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/meurekaServer.iml" filepath="$PROJECT_DIR$/eureka-server/meurekaServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vatcountry/mvatcountry.iml" filepath="$PROJECT_DIR$/vatcountry/mvatcountry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-server/mzuul-server.iml" filepath="$PROJECT_DIR$/zuul-server/mzuul-server.iml" />
     </modules>
   </component>
 </project>
