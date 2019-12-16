@@ -28,19 +28,14 @@ import static org.mockito.MockitoAnnotations.initMocks;
 @PrepareForTest(VatCountryService.class)
 class VatCountryServiceTest {
 
-    @Mock
-    RestTemplate mockRestTemplate;
+
 
     private VatCountryService vatCountryService= new VatCountryService();
-
-    @BeforeTestMethod
-    public void init() {
-        initMocks(this);
-    }
 
     @Test
     void getCodeCountry() throws Exception {
 
+        RestTemplate mockRestTemplate = mock(RestTemplate.class);
 
         PowerMockito.whenNew(RestTemplate.class).withAnyArguments().thenReturn(mockRestTemplate);
         ResponseEntity responseEntity = mock(ResponseEntity.class);

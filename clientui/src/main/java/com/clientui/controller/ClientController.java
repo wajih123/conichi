@@ -40,6 +40,7 @@ public class ClientController {
                                                   @PathVariable Float quantity, Model model){
 
         CurrencyConversionBean currencyConversion = microServiceCurrencyProxy.convertCurrency(from, to, quantity);
+        model.addAttribute("quantity", quantity);
         model.addAttribute("From",currencyConversion.getFrom());
         model.addAttribute("To",currencyConversion.getTo());
         model.addAttribute("TotalAmount",currencyConversion.getTotalCalculatedAmount());
