@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../clientui/mclientui.iml" filepath="$PROJECT_DIR$/../clientui/mclientui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../config-server/mconfig-server.iml" filepath="$PROJECT_DIR$/../config-server/mconfig-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SpringBoot/convertcurrency/mconvertcurrency.iml" filepath="$PROJECT_DIR$/../SpringBoot/convertcurrency/mconvertcurrency.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SpringBoot/cuurentTime/mcurrenttime.iml" filepath="$PROJECT_DIR$/../SpringBoot/cuurentTime/mcurrenttime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SpringBoot/vatcountry/mvatcountry.iml" filepath="$PROJECT_DIR$/../SpringBoot/vatcountry/mvatcountry.iml" />
+    </modules>
+  </component>
+</project>

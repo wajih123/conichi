@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mvatcountry" />
+        <module name="mclientui" />
+        <module name="mconvertcurrency" />
+        <module name="mcurrenttime" />
+        <module name="mconfig-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mclientui" target="1.8" />
+      <module name="mconfig-server" target="1.8" />
+      <module name="mconvertcurrency" target="1.8" />
+      <module name="mcurrenttime" target="1.8" />
+      <module name="mvatcountry" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mclientui" options="-parameters" />
+      <module name="mconfig-server" options="-parameters" />
+      <module name="mconvertcurrency" options="-parameters" />
+      <module name="mcurrenttime" options="-parameters" />
+      <module name="mvatcountry" options="-parameters" />
+    </option>
+  </component>
+</project>
